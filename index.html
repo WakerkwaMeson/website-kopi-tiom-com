@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marketplace Mandiri</title>
+
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- CSS Eksternal -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="navbar-extra">
+    <a href="#" id="search"><i class="fas fa-search"></i></a>
+    <a href="#" id="cart"><i class="fas fa-shopping-cart"></i></a>
+    <a href="#" id="hamburger-menu"><i class="fas fa-bars"></i></a>
+  </div>
+  <!-- Navbar Start -->
+  <nav class="navbar">
+    <div class="container">
+      <img src="img/Screenshot 2025-05-05 214035.png" alt="Logo" class="logo" width=""/>
+      <a href="#" class="navbar-logo">Kopi<span>Tiom</span>.</a>
+
+      <div class="navbar-nav" id="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu Kami</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Hero Section Start -->
+  <section class="hero" id="home">
+    <main class="content">
+      <h1>Selamat Menikmati Secangkir <span>Kopi Tiom!</span></h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, vel.</p>
+      <a href="#" class="cta">Pesan sekarang...</a>
+    </main>
+  </section>
+  <!-- Hero Section End -->
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <h2><span>Tentang</span> Kami</h2>
+    <div class="row">
+      <div class="about-img">
+        <img src="img/kopi.jpg" alt="Tentang Kami" />
+      </div>
+      <div class="content">
+        <h3>Senja Kopi Tiom</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis amet earum nihil.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, pariatur?</p>
+      </div>
+    </div>
+  </section>
+  <!-- About Section End -->
+
+  <!-- Menu Section Start -->
+  <section class="menu" id="menu">
+    <h2><span>Menu</span> Kami</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+      <!-- Menu Cards -->
+      <div class="menu-card">
+        <img src="img/Menu/americano.jpg" alt="Americano" class="menu-card-img" />
+        <h3 class="menu-card-title">- Americano -</h3>
+        <p class="menu-card-price">IDR 15k</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/Menu/latte.jpg" alt="Coffee Latte" class="menu-card-img" />
+        <h3 class="menu-card-title">- Coffee Latte -</h3>
+        <p class="menu-card-price">IDR 15k</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/Menu/Macchiaoto.jpg" alt="Macchiato" class="menu-card-img" />
+        <h3 class="menu-card-title">- Macchiato -</h3>
+        <p class="menu-card-price">IDR 15k</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/Menu/Mocha.jpg" alt="Mocha" class="menu-card-img" />
+        <h3 class="menu-card-title">- Mocha -</h3>
+        <p class="menu-card-price">IDR 15k</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/Menu/susu gula aren1.jpg" alt="Susu Gula Aren" class="menu-card-img" />
+        <h3 class="menu-card-title">- Susu Gula Aren -</h3>
+        <p class="menu-card-price">IDR 15k</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/Menu/flat white1.jpeg" alt="Flat White" class="menu-card-img" />
+        <h3 class="menu-card-title">- Flat White -</h3>
+        <p class="menu-card-price">IDR 15k</p>
+      </div>
+    </div>
+  </section>
+  <!-- Menu Section End -->
+
+  <!-- Contact Section Start -->
+  <section class="contact" id="contact">
+    <h2><span>Kontak</span> Kami</h2>
+    <p>Silakan hubungi kami melalui form berikut atau lihat lokasi kami di peta.</p>
+    <div class="row">
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=..." allowfullscreen="" loading="lazy"></iframe>
+      <form action="">
+        <div class="input-group">
+          <i data-feather="user"></i>
+          <input type="text" placeholder="Nama" required />
+        </div>
+        <div class="input-group">
+          <i data-feather="mail"></i>
+          <input type="email" placeholder="E-mail" required />
+        </div>
+        <div class="input-group">
+          <i data-feather="phone-call"></i>
+          <input type="tel" placeholder="Nomor Telp" required />
+        </div>
+        <button type="submit" class="btn">Kirim</button>
+        <button type="reset" class="btn">Batal</button>
+      </form>
+    </div>
+  </section>
+  <!-- Contact Section End -->
+
+  <!-- Footer Start -->
+  <footer class="footer">
+    <div class="container">
+      <div class="socials">
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i data-feather="instagram"></i></a>
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i data-feather="facebook"></i></a>
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i data-feather="twitter"></i></a>
+        <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i data-feather="youtube"></i></a>
+        <a href="https://wa.me/yourphonenumber" target="_blank" aria-label="WhatsApp"><i data-feather="message-square"></i></a>
+      </div>
+      <div class="credit">
+        <p>Created by <a href="#">MesonWakerkwa</a> &copy; 2025</p>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- JS Eksternal -->
+  <script src="js/script.js"></script>
+
+  <!-- Inisialisasi Feather Icons -->
+  <script>
+    
+    feather.replace();
+  </script>
+
+</body>
+</html>
